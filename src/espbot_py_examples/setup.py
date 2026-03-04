@@ -24,7 +24,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'simple_publisher = espbot_py_examples.simple_publisher:main'
+            'simple_publisher = espbot_py_examples.simple_publisher:main',
+            'simple_subscriber = espbot_py_examples.simple_subscriber:main'
         ],
     },
 )
